@@ -27,7 +27,7 @@ public class MagicStringsTest {
 
     private void magic() throws Exception {
         // Start code
-
+        // solution just for a 32bit java
         class UnsafeHelper {
             private Unsafe unsafe = null;
 
