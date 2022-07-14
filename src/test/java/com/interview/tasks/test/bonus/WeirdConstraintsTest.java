@@ -20,7 +20,7 @@ import org.junit.Test;
 public class WeirdConstraintsTest {
     @Test
     public void testWeirdConstraints() throws Exception {
-//        Assert.assertEquals(generateWithConstraints(), "Hello world");
+        Assert.assertEquals(generateWithConstraints(), "Hello world");
     }
 
     private String generateWithConstraints() {
