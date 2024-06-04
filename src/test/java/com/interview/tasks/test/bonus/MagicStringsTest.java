@@ -21,6 +21,7 @@ public class MagicStringsTest {
 
     private void magic() throws Exception {
         // Start code
+        //tested with ubuntu 64 java 8
         String password = "Hello world".intern();
         String fake = "Hello ums".intern();
 
