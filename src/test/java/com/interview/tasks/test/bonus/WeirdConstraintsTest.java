@@ -26,6 +26,18 @@ public class WeirdConstraintsTest {
     private String generateWithConstraints() {
         final StringBuilder sb = new StringBuilder();
         // Start code
+        sb
+                .append((char)72)      //H
+                .append((char)(101))   //e
+                .append((char)(108))   //l
+                .append((char)108)     //l
+                .append((char)111)     //o
+                .append((char)32)      //space
+                .append((char)119)     //w
+                .append((char)111)     //o
+                .append((char)114)     //r
+                .append((char)108)     //l
+                .append((char)100);    //d
         // End code
         return sb.toString();
     }
